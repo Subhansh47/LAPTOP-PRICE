@@ -1,0 +1,86 @@
+/* styles.css */
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/static/background.jpg');
+    /* Path to your background image */
+    background-size: cover;
+    /* Adjust the image size to cover the entire body */
+    background-repeat: no-repeat;
+    /* Prevent image from repeating */
+    background-attachment: fixed;
+    /* Fixed background, so it doesn't scroll with content */
+    background-position: center center;
+    /* Center the background image */
+}
+
+/* Header styling */
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #315cbf; /* A bright and vibrant orange */
+    color: #FFF; /* White text for contrast */
+    margin: 0;
+    font-family: 'cosmic sans', sans-serif; /* Replace 'Your Desired Font' with your chosen font name */
+    font-size: 36px; /* Adjust the font size as needed */
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 2px; /* Adjust letter spacing */
+}
+
+/* Form container styling */
+form {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Label and input field styling */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Submit button styling */
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Result styling */
+#price_prediction {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+    margin-top: 20px;
+}
+@font-face {
+    font-family: 'Cosmic Sans';
+    src: url('/static/fonts/cosmic-sans.woff2') format('woff2'),
+         url('/static/fonts/cosmic-sans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
